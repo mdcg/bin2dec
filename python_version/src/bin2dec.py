@@ -70,9 +70,8 @@ def loop():
 def main():
     """Main function in which the Bin2Dec processing loop is called.
     """
-    print(
-        "Welcome to Bin2Dec!\nTo exit, press 'CTRL + C'.\n"
-    )
+    print("Welcome to Bin2Dec!\nTo exit, press 'CTRL + C'.\n")
+
     try:
         loop()
     except KeyboardInterrupt:
