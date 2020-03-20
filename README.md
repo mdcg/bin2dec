@@ -8,4 +8,4 @@ This project was based on **Bin2Dec** from **[app-ideas](https://github.com/flor
 
 **Python version:** Click [here](https://github.com/mdcg/bin2dec/tree/master/python_version) 
 
-**Golang version:** WIP
+**Golang version:** Click [here](https://github.com/mdcg/bin2dec/tree/master/golang_version)
