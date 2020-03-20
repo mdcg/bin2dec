@@ -13,7 +13,7 @@ func main() {
 	loop()
 }
 
-func convertBinaryToDecimal(binaryValue string) (int64, error) {
+func ConvertBinaryToDecimal(binaryValue string) (int64, error) {
 	convertedBinaryToDecimal, err := strconv.ParseInt(binaryValue, 2, 32)
 	return convertedBinaryToDecimal, err
 }
@@ -23,7 +23,7 @@ func loop() {
 
 	for {
 		binaryValue := userInput(reader)
-		convertedBinarytoDecimal, err := convertBinaryToDecimal(binaryValue)
+		convertedBinarytoDecimal, err := ConvertBinaryToDecimal(binaryValue)
 		if err != nil {
 			fmt.Printf("\nThe value '%s' is not a binary. Try again.\n\n", binaryValue)
 			continue
